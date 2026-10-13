@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model checkpoints (too large for git; use releases or cloud storage)
+result/
+checkpoints/*.pth
+checkpoints/*.pth.tar
+checkpoints/*.tar
+*.pth
+*.pth.tar
+*.tar
+
+# Downloaded datasets and generated labels are kept out of Git; splits/ is tracked.
+data/
+dataset/
+datasets/
+
+# External backbone source clones
+external/
+
+# Generated pseudo-masks (can be regenerated; too large)
+masks_bsnr/
+masks_bsnr_gauss/
+masks_bsnr_vis/
+
+# Evaluation outputs
+value_result/
+*.mat
+
+# Visualization outputs
+*_vis.png
+vis_*/
+
+# Logs and temp files
+*.log
+*.tmp
+nohup.out
+.DS_Store
+.idea/
+.vscode/
+*.swp

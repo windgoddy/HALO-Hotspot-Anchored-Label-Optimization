@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the HALO preprint and this repository."
+type: software
+title: "HALO: Hotspot-Anchored Label Optimization for Box-Supervised Infrared Small Target Detection"
+authors:
+  - family-names: "Zhang"
+    given-names: "Xizhe"
+  - family-names: "Shi"
+    given-names: "Fan"
+  - family-names: "Wang"
+    given-names: "Mianzhao"
+  - family-names: "Zheng"
+    given-names: "Jiangpeng"
+  - family-names: "Cheng"
+    given-names: "Xu"
+  - family-names: "Chen"
+    given-names: "Shengyong"
+repository-code: "https://github.com/windgoddy/HALO-Hotspot-Anchored-Label-Optimization"
+license: MIT
+year: 2026
+identifiers:
+  - type: url
+    value: "https://arxiv.org/abs/2607.17148"
+    description: "Earlier manuscript preprint"
